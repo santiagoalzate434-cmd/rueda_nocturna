@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="es">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rueda Nocturna | Medellín</title>
-    <link href="src/output.css" rel="stylesheet" />
+    <link href="src/output.css" rel="stylesheet">
+    <title>Rueda | Nocturna</title>
   </head>
-
+  
   <body class="min-h-screen bg-slate-950 text-white">
     <section class="mx-auto max-w-3xl space-y-6 px-6 py-20">
       <p
@@ -21,9 +21,34 @@
         Descubre Medellín en bici cuando se encienden las luces
       </p>
       <div class="flex gap-8 pt-2">
-        <p class="text-2xl font-bold text-amber-400">3 rutas</p>
-        <p class="text-2xl font-bold text-amber-400">Desde $55.000</p>
+        <p class="text-2xl font-bold text-amber-400 border-b">3 rutas</p>
+        <p class="text-2xl font-bold text-amber-400 border-b">Desde $55.000</p>
       </div>
+      <section id="rutas" class="p-8 bg-gray-50">
+        <h2 class="text-3x1 font-bold text-gray-900 text-center mb-8">Rutas</h2>
+        <div class="flex flex-col items-center gap-10">
+          <div class="p-10">
+            <span class="inline-block mb-3 px-3 py-1 text-xs font-semibold rounded full bg-green-100 text-green-800">
+              nivel facil
+            </span>
+            <h3 class="text -xl font-bold text-gray-900 mb-4">luces del centro</h3>
+            <dl class="space-y-2 mb-6">
+              <div class="flex justify-between">
+                <dt class="text-sm text-green-800">Distancia</dt>
+                <dd class="font-semibold text-gray-900">10Km</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-sm text-green-800">Duracion</dt>
+                <dd class="font-semibold text-gray-900">2 Horas</dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-sm text-green-800">encuentro</dt>
+                <dd class="font-semibold text-gray-900"> ruedalibre</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
       <a
         href="#inscripcion"
         class="inline-block rounded-lg bg-amber-400 px-6 py-3 font-semibold text-slate-950 shadow-lg shadow-amber-400/20 hover:bg-amber-300 focus:outline-hidden focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 focus:ring-offset-slate-950"
@@ -58,6 +83,13 @@
           class="rounded-lg border-2 border-amber-400 px-6 py-3 font-semibold text-amber-400 hover:bg-amber-400 hover:text-slate-950 focus:outline-hidden focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 focus:ring-offset-slate-950"
         >
           Contorno
+        </button>
+      </div>
+      <div class="flex flex-wrap ">
+        <button
+          type="button"
+          class="rounded-lg bg-slate-400 px-32 py-3 font-semibold text-white shadow-md hover:bg-amber-400 focus:outline-hidden focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-950"
+          >ver menu
         </button>
       </div>
     </section>
