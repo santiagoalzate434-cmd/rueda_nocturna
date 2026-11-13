@@ -1,22 +1,65 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rueda nocturna | medellin</title>
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rueda Nocturna | Medellín</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
 
-<body class="min-h-screen bg-slate-950 text-white">
-    
-    <h1 class="text-3xl font-bold text-amber-800">¡Hola, Tailwind!</h1>
-    <button
-    class="rounded-lg bg-amber-800 px-5 py-2.5 text-white">
-    Reservar
-    </button>
-    <a href="menu.html" class="text-amber-800 underline hover:text-amber-950">Ver menú</a>
+  <body class="min-h-screen bg-slate-950 text-white">
+    <section class="mx-auto max-w-3xl space-y-6 px-6 py-20">
+      <p
+        class="w-fit rounded-full bg-slate-800 px-4 py-1 text-xs font-semibold uppercase tracking-widest text-amber-300"
+      >
+        Nuevo · Jueves a sábado
+      </p>
+      <h1 class="text-5xl font-bold leading-tight tracking-tight text-white">
+        Rueda Nocturna
+      </h1>
+      <p class="max-w-xl text-lg leading-relaxed text-slate-300">
+        Descubre Medellín en bici cuando se encienden las luces
+      </p>
+      <div class="flex gap-8 pt-2">
+        <p class="text-2xl font-bold text-amber-400">3 rutas</p>
+        <p class="text-2xl font-bold text-amber-400">Desde $55.000</p>
+      </div>
+      <a
+        href="#inscripcion"
+        class="inline-block rounded-lg bg-amber-400 px-6 py-3 font-semibold text-slate-950 shadow-lg shadow-amber-400/20 hover:bg-amber-300 focus:outline-hidden focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 focus:ring-offset-slate-950"
+      >
+        Inscríbete
+      </a>
+    </section>
 
-    <input type="email" class="rounded-md border border-gray-300 px-3 py-2
-    focus:ring-amber-200 focus:outline-hidden">
-</body>
+    <section class="mx-auto max-w-3xl space-y-4 px-6 pb-20">
+      <h2
+        class="text-sm font-semibold uppercase tracking-widest text-slate-400"
+      >
+        Botones
+      </h2>
+      <div class="flex flex-wrap gap-4">
+        <button
+          type="button"
+          class="rounded-lg bg-amber-400 px-6 py-3 font-semibold text-slate-950 shadow-lg shadow-amber-400/20 hover:bg-amber-300 hover:shadow-amber-400/40 focus:outline-hidden focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 focus:ring-offset-slate-950"
+        >
+          Principal
+        </button>
+
+        <button
+          type="button"
+          class="rounded-lg bg-slate-800 px-6 py-3 font-semibold text-white shadow-md hover:bg-slate-700 focus:outline-hidden focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-950"
+        >
+          Secundario
+        </button>
+
+        <button
+          type="button"
+          class="rounded-lg border-2 border-amber-400 px-6 py-3 font-semibold text-amber-400 hover:bg-amber-400 hover:text-slate-950 focus:outline-hidden focus:ring-2 focus:ring-amber-200 focus:ring-offset-2 focus:ring-offset-slate-950"
+        >
+          Contorno
+        </button>
+      </div>
+    </section>
+  </body>
 </html>
